@@ -1,0 +1,18 @@
+import firebase from 'firebase';
+require('@firebase/firestore')
+
+ const firebaseConfig = {
+    apiKey: "AIzaSyC1BU-2vegytK_INSZM7ng-aLBcSMCPpQ8",
+    authDomain: "booksanta1-4d523.firebaseapp.com",
+    projectId: "booksanta1-4d523",
+    storageBucket: "booksanta1-4d523.appspot.com",
+    messagingSenderId: "63892542498",
+    appId: "1:63892542498:web:b4e2d1dc967e5b8e21e67b"
+  };
+// Initialize Firebase
+if(!firebase.apps.length){
+firebase.initializeApp(firebaseConfig);
+}
+
+export default firebaseConfig;
+
